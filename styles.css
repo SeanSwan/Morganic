@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+min-height: 100%;
+min-width: 100%;
+background-color:#9CABB9;
+background-size: 80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+background-image: -webkit-linear-gradient(60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -webkit-linear-gradient(-60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -webkit-linear-gradient(60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -webkit-linear-gradient(-60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -webkit-linear-gradient(30deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6),
+                  -webkit-linear-gradient(30deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6);
+background-image: -moz-linear-gradient(60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -moz-linear-gradient(-60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -moz-linear-gradient(60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -moz-linear-gradient(-60deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF),
+                  -moz-linear-gradient(30deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6),
+                  -moz-linear-gradient(30deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6);
+background-image: linear-gradient(30deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 0 0,
+                  linear-gradient(150deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 0 0,
+                  linear-gradient(30deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 40px 70px,
+                  linear-gradient(150deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 40px 70px,
+                  linear-gradient(60deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6) 0 0,
+                  linear-gradient(60deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6) 40px 70px / 80px 140px;
+-pie-background: linear-gradient(30deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 0 0 / 80px 140px,
+                 linear-gradient(150deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 0 0 / 80px 140px,
+                 linear-gradient(30deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 40px 70px / 80px 140px,
+                 linear-gradient(150deg, #0062BF 12%, transparent 12.5%, transparent 87%, #0062BF 87.5%, #0062BF) 40px 70px / 80px 140px,
+                 linear-gradient(60deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6) 0 0 / 80px 140px,
+                 linear-gradient(60deg, #813AF6 25%, transparent 25.5%, transparent 75%, #813AF6 75%, #813AF6) 40px 70px / 80px 140px,
+                 #9CABB9;
+behavior: url(/pie/PIE.htc);
+  
+}
+
+
+
+
+.container {
+min-height: 100%;
+
+background-color: #6DB2F3;
+width: 620px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-moz-box-shadow: +5px +5px 5px 5px black;
+-webkit-box-shadow: +5px +5px 5px 5px  black;
+box-shadow: +5px +5px 5px 5px  black;
+border-radius: 10px;
+ 
+}
+
+
+#rowMain  {
+width: 600px;
+margin-right: 50px;
+
+}
+
+h1 {
+font-size: 80px;
+padding-left: 140px;
+text-shadow: 2px 2px 4px black, 0 0 25px #813AF6, 0 0 5px #0062BF;
+}
+
+h2 {
+font-size: 35px;
+padding-left: 90px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+color:  #FF0400;
+
+}
+
+h3 {
+font-size: 30px;
+padding-left: 90px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+color:  #FF0400;
+
+}
+
+
+
+#homeButtons {
+
+
+  color: grey; 
+  padding: 10px 24px; 
+  float: center;
+  width: 0%; 
+  display: block; 
+  
+  height: 100%;
+  
+}
+
+
+
+#searchHome {
+margin: 50%;
+float: center;
+width: 13em;
+margin-bottom: 40px;
+color: #1C0542;
+background-color: #0062BF;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+#uploadHome {
+margin: 50%;
+float: center;
+width: 13em;
+ height: 10%;
+ margin-bottom: 40px;
+background-color: #AE6DF3;  
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+
+#cookHome {
+margin: 50%;
+width: 13em;
+float: center;
+margin-bottom: 40px;
+background-color: #EAE84E;  
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+#groceriesHome{
+margin: 50%;
+float: center;
+width: 13em;
+margin-bottom: 40px;
+background-color: #0BB8AE;
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+#eatOutHome{
+margin: 50%;
+width: 13em;
+float: center;
+margin-bottom: 40px;
+background-color: #9CABB9;
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+
+#growHome {
+margin: 50%;
+width: 13em;
+float: center;
+margin-bottom: 40px;
+background-color: #006600;
+color: #1C0542;
+border-radius: 10px;
+ text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+#donateHome{
+margin: 50%;
+float: center;
+width: 13em;
+margin-bottom: 40px;
+background-color: #26EDDE;
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+#farm{
+margin: 50%;
+width: 13em;
+float: center;
+margin-bottom: 40px;
+background-color: #00ff00;
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+
+}
+#signUpHome{
+margin: 50%;
+width: 13em;
+float: center;
+margin-bottom: 40px;
+background-color: #813AF6;
+color: #1C0542;
+border-radius: 10px;
+text-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+box-shadow: 5px  +5px  5px  +5p black;
+border: solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: +5px +5px 5px 5px black;
+  -webkit-box-shadow: +5px +5px 5px 5px  black;
+  box-shadow: +5px +5px 5px 5px  black;
+  border-radius: 10px;
+  font-size: 3em;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE SEARCH PAGE*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#searchBarSearch {
+height: 100px;
+width: 80%;
+font-size: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
