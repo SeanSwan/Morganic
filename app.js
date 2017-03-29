@@ -8,7 +8,18 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     url: "/",
     templateUrl: "./views/home.html",
     controller: "homeController"
+      // data: {
+      //      bodyClasses: 'auth'
+      //  }
   })
+  // .state("search", {
+  //   url: "/search",
+  //   templateUrl: "./views/search.html",
+  //   controller: "appController"
+    // data: {
+    //        bodyClasses: 'auth'
+    //    }
+// })
   .state("search", {
     url: "/search",
     templateUrl: "./views/search.html",
