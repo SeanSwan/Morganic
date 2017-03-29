@@ -60,9 +60,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     templateUrl: "./views/donate.html",
     controller: "donateController"
   })
-  .state("sign_up", {
-    url: "/sign_up",
-    templateUrl: "./views/sign_up.html",
-    controller: "sign_upController"
+  .state("signUp", {
+    url: "/signUp",
+    templateUrl: "./views/signUp.html",
+    controller: "signUpController"
   })
 })
